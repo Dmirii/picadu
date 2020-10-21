@@ -36,6 +36,9 @@
             // &:last-child{
             //     margin: 0px;    
             // }
+            &:hover{
+                color:#E5E5E5; //#8C8C8C;
+            }
         }
     }
 
@@ -73,4 +76,8 @@
     justify-content: center;
     color: #BFBFBF;
     font-size: 14px;
+    &:hover{
+        font-size: 34px;background: #E5E5E5; //#8C8C8C;
+        border-radius:10px;       
+    }
 }
