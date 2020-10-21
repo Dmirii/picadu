@@ -1,0 +1,14 @@
+
+@import "./reset_fp.scss";
+@import "./header.scss";
+@import "./content.scss";
+
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background: #E5E5E5;    
+}
