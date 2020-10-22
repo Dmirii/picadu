@@ -176,10 +176,19 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 1200px;
   width: 90%;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .posts {
-  max-width: 800px;
+  width: 67%;
 }
 
 .post {
@@ -322,6 +331,192 @@ h1, h2, h3, h4, h5, h6 {
   height: 34px;
   margin-left: 9px;
   border-radius: 4px;
+}
+
+.icon-exit {
+  width: 20px;
+  height: 20px;
+}
+
+.icon-fire {
+  fill: white;
+  width: 11px;
+  height: 13px;
+  margin-right: 10px;
+}
+
+.active {
+  color: #FAAD14;
+  border-right: 2px solid #FAAD14;
+  background: #FFFBE6;
+}
+
+.button {
+  text-decoration: none;
+  background: #FAAD14;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 13px;
+}
+
+.button-new-post {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.button-new-post:hover {
+  color: #595959;
+}
+
+.button-new-post:hover svg {
+  fill: #595959;
+}
+
+.sidebar {
+  width: 31%;
+}
+
+.sidebar-nav {
+  background: #fff;
+}
+
+.sidebar-menu {
+  border: 1px solid #E8E8E8;
+  border-top: none;
+  margin-bottom: 20px;
+}
+
+.sidebar-menu-link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #595959;
+  padding: 16px 48px;
+  display: inline-block;
+  width: 100%;
+}
+
+.sidebar-menu-link:hover {
+  background: #FFFBE6;
+}
+
+.user {
+  background: #FAFAFA;
+  border: 1px solid #E8E8E8;
+  padding: 15px 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.user-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 17px;
+}
+
+.user-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.user-name {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.promo {
+  margin-top: 20px;
+  background: #fff;
+  width: 100%;
+  height: 260px;
+  border: 1px solid #E8E8E8;
+  position: relative;
+  background: url("../../img/Rec.jpg") no-repeat center/cover;
+}
+
+.promo:before {
+  content: "Реклама";
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #fff;
+  padding: 0 26px;
+  background: #C4C4C4;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.card {
+  margin-top: 20px;
+}
+
+.card-header {
+  background: #FAFAFA;
+  border: 1px solid #E8E8E8;
+}
+
+.card-title {
+  padding: 23px 0px 23px 25px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.card-body {
+  border: 1px solid #E8E8E8;
+  background: #fff;
+}
+
+.card-body-title {
+  display: block;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #D48806;
+  padding: 22px 0px 10px 25px;
+}
+
+.card-text {
+  padding: 0 40px 30px 25px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #262626;
 }
 
 * {
