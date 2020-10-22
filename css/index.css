@@ -460,7 +460,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 260px;
   border: 1px solid #E8E8E8;
   position: relative;
-  background: url("../../img/Rec.jpg") no-repeat center/cover;
+  background: url("./../../img/Rec.jpg") no-repeat center/cover;
 }
 
 .promo:before {
