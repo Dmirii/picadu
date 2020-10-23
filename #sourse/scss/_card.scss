@@ -5,8 +5,9 @@
         border: 1px solid #E8E8E8;
     }
     &-title{
+        font-family: "SFProDisplay-Semibold", sans-serif;
         padding: 23px 0px 23px 25px;
-        font-style: normal;
+        font-style: bold;
         font-weight: 600;
         font-size: 16px;
         line-height: 24px;
@@ -16,8 +17,10 @@
         border: 1px solid #E8E8E8;
         background: #fff;
         &-title{
+            width: 95%;
+            font-family: "SFProDisplay-Semibold", sans-serif;
             display: block;
-            font-style: normal;
+            font-style: bold;
             font-weight: 600;
             font-size: 16px;
             line-height: 24px;     

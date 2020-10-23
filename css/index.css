@@ -79,7 +79,13 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------*/
 @font-face {
   font-family: "SFProDisplay-Regular";
-  src: local("SFProDisplay-Regular"), url("../../fonts/SFProDisplay-Regular.woff") format("woff");
+  src: local("SFProDisplay-Regular"), url("../../fonts/SFProDisplay-Regular.woff") format("woff"), url("../../fonts/SFProDisplay-Regular.woff2") format("woff2");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "SFProDisplay-Semibold";
+  src: local("SFProDisplay-Semibold"), url("../../fonts/SFProDisplay-Semibold.woff") format("woff"), url("../../fonts/SFProDisplay-Semibold.woff2") format("woff2");
   font-weight: bold;
 }
 
@@ -208,9 +214,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .post-title {
+  font-family: "SFProDisplay-Semibold", sans-serif;
   margin-bottom: 19px;
-  font-style: normal;
-  font-weight: 600;
   font-size: 16px;
   line-height: 24px;
   color: #262626;
@@ -325,9 +330,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .author-username {
+  font-family: "SFProDisplay-Semibold", sans-serif;
   display: block;
-  font-style: normal;
-  font-weight: normal;
   font-size: 12px;
   line-height: 20px;
   color: #8C8C8C;
@@ -493,8 +497,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .card-title {
+  font-family: "SFProDisplay-Semibold", sans-serif;
   padding: 23px 0px 23px 25px;
-  font-style: normal;
+  font-style: bold;
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
@@ -507,8 +512,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .card-body-title {
+  width: 95%;
+  font-family: "SFProDisplay-Semibold", sans-serif;
   display: block;
-  font-style: normal;
+  font-style: bold;
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
@@ -531,7 +538,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "SFProDisplay-Regular", sans-serif;
   background: #E5E5E5;
 }
 /*# sourceMappingURL=index.css.map */
