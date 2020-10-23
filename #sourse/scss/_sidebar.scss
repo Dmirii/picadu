@@ -37,6 +37,13 @@
             //border: 1px solid #595959;
             color: #595959;
         }  
+        &:active{
+            background:#fff;
+            svg{
+                fill: #FAAD14;;
+            }
+            color:  #FAAD14;;
+        }
     }
 
 }

@@ -511,6 +511,15 @@ h1, h2, h3, h4, h5, h6 {
   fill: #595959;
 }
 
+.button-new-post:active {
+  background: #fff;
+  color: #FAAD14;
+}
+
+.button-new-post:active svg {
+  fill: #FAAD14;
+}
+
 .sidebar {
   width: 31%;
 }
@@ -647,6 +656,61 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   line-height: 22px;
   color: #262626;
+}
+
+.add-post {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.add-title {
+  height: 70px;
+  margin-bottom: 16px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  background: #FFFFFF;
+  border: 1px solid #E8E8E8;
+  padding-left: 30px;
+}
+
+.add-text {
+  min-height: 362px;
+  background: #FFFFFF;
+  border: 1px solid #E8E8E8;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #595959;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.add-button {
+  color: #fff;
+}
+
+.add-button:hover {
+  color: #595959;
+}
+
+.add-button:hover svg {
+  fill: #595959;
+}
+
+.add-button:active {
+  background: #fff;
+  color: #FAAD14;
+}
+
+.add-button:active svg {
+  fill: #FAAD14;
 }
 
 * {
