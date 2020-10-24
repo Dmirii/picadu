@@ -19,7 +19,7 @@
         }   
     }
     .header-wrapper>.input-group{
-        width: 200px;
+        width: 55%;
     }
 
     .header-wrapper>.header-nav{
@@ -57,11 +57,7 @@
         overflow-y: auto;
     }  
 }
-@media(max-width:768px){
-   *:hover{
-        display: none;
-    }
-}
+
 @media(max-width:576px){
     .post-footer{
         flex-direction: column;
@@ -71,6 +67,7 @@
         margin-top: 10px;        
     }
 }
+
 
 .burger-active{
     transform: translateX(0);

@@ -117,7 +117,7 @@ h1, h2, h3, h4, h5, h6 {
             box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
   }
   .header-wrapper > .input-group {
-    width: 200px;
+    width: 55%;
   }
   .header-wrapper > .header-nav {
     margin-left: 0;
@@ -157,12 +157,6 @@ h1, h2, h3, h4, h5, h6 {
     transition: transform .3s;
     transition: transform .3s, -webkit-transform .3s;
     overflow-y: auto;
-  }
-}
-
-@media (max-width: 768px) {
-  *:hover {
-    display: none;
   }
 }
 
@@ -680,6 +674,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .add-text {
+  resize: none;
   min-height: 362px;
   background: #FFFFFF;
   border: 1px solid #E8E8E8;
